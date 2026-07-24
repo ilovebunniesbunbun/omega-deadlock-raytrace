@@ -1,0 +1,18 @@
+# Build output
+build/
+bin/
+*.so
+*.dll
+*.o
+*.a
+
+# Binary triangle collision files
+deadlock_raytrace/*.tri
+deadlock_raytrace/
+*.tri
+
+# Private Lua scripts
+*.lua
+deadlock.lua
+deadlock_raytrace.lua
+raytrace.lua
